@@ -31,7 +31,7 @@ Streamlit (Web App Development)
 **Installation**
 
 **Clone the repository:**
-
+https://github.com/Rajivcs0/ARAS_AQI.git
 
 **Run the Streamlit app:**
 streamlit run app.py
