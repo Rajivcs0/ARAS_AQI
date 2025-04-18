@@ -17,7 +17,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 # Load the dataset
-df = pd.read_csv("/content/air-quality-india.csv")
+df = pd.read_csv("air-quality-india.csv")
 
 # Convert Timestamp to datetime format
 df["Timestamp"] = pd.to_datetime(df["Timestamp"])
