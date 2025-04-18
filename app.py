@@ -9,7 +9,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 # ------------------- Load the dataset -------------------
 try:
-    df = pd.read_csv("/content/air-quality-india.csv")
+    df = pd.read_csv("air-quality-india.csv")
 except FileNotFoundError:
     print("❌ File not found. Make sure the CSV file path is correct.")
     exit()
