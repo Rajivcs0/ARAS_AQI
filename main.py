@@ -55,12 +55,14 @@ if submitted:
         st.caption(f"Prediction for: {valid_date.strftime('%B %d, %Y at %I:%M %p')}")
 
         # Optional air quality interpretation
-        if prediction <= 50:
+        if prediction < 12:
             st.info("Air Quality: Good 😊")
-        elif prediction <= 100:
-            st.warning("Air Quality: Moderate 😐")
+        elif 12 <= prediction < 55:
+            st.warning("AQI is sensitive for kids, elders and patients 😊")
+        elif 55 <= prediction < 100:
+            st.warning("AQI is too dangerous, so be careful going outside 😐")
         else:
-            st.error("Air Quality: Poor 😷")
+            st.error("AQI is too hazardous and dangerous for everyone. Avoid breathing outside air 😷")
 
     except ValueError:
         st.error("❌ Invalid date! Please enter a valid date combination.")
