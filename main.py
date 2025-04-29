@@ -14,7 +14,7 @@ st.title("PM2.5 Prediction App")
 # Load the trained model (cached for performance)
 @st.cache_resource
 def load_model():
-    return joblib.load("/Users/thril/Desktop/ARAS1-AQI/pm25_model.pkl")
+    return joblib.load("pm25_model.pkl")
 
 model = load_model()
 
