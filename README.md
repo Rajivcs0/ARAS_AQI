@@ -131,4 +131,10 @@ PM2.5 levels are influenced by complex patterns and multiple factors.
 ML can model these non-linear relationships better than basic statistical methods.
 Enables near real-time predictions with minimal manual intervention.
 
+Streamlit Images
+![Screenshot (3)](https://github.com/user-attachments/assets/f51ca9de-7190-4810-9d16-935f5d3245b6)
+![Screenshot (2)](https://github.com/user-attachments/assets/31780090-f0e1-4421-9385-5f4805c1cc57)
+
+
+
 
