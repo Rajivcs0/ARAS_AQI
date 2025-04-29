@@ -47,7 +47,7 @@ You can use any similar dataset with these features. Example: Beijing PM2.5 data
  ⚙️ Setup Instructions
 
  1. Clone the Repository
-
+    https://github.com/Rajivcs0/ARAS_AQI.git
 
 
 PM2.5 refers to particulate matter with a diameter of 2.5 micrometers or less — about 30 times smaller than the width of a human hair. These tiny particles are a major component of air pollution and can penetrate deep into the lungs and even enter the bloodstream.
